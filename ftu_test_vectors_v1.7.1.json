@@ -1,0 +1,92 @@
+{
+  "ftu_spec_version": "1.7.1",
+  "tp_value_seconds": "5.391247e-44",
+  "rounding_policy": "nearest_even",
+  "precision_digits_internal": 80,
+  "vectors": [
+    {
+      "id": "dur_1s_to_ftu",
+      "kind": "duration_to_ftu",
+      "input_seconds": "1",
+      "expected_ftu": "1.85485843998615e43",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "dur_1ms_to_ftu",
+      "kind": "duration_to_ftu",
+      "input_seconds": "0.001",
+      "expected_ftu": "1.85485843998615e40",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "dur_1min_to_ftu",
+      "kind": "duration_to_ftu",
+      "input_seconds": "60",
+      "expected_ftu": "1.11291506399169e45",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "dur_1hour_to_ftu",
+      "kind": "duration_to_ftu",
+      "input_seconds": "3600",
+      "expected_ftu": "6.67749038395013e46",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_1_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "1",
+      "expected_tftu": "1.85485843998615e43",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_60_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "60",
+      "expected_tftu": "3.09143073331025e41",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_59_94_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "59.94",
+      "expected_tftu": "3.09452525856882e41",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_120_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "120",
+      "expected_tftu": "1.54571536665512e41",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_44100_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "44100",
+      "expected_tftu": "4.20602820858537e38",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_48000_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "48000",
+      "expected_tftu": "3.86428841663781e38",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "hz_3_2ghz_to_tftu",
+      "kind": "hz_to_ftu_period",
+      "input_hz": "3200000000",
+      "expected_tftu": "5.79643262495671e33",
+      "tolerance_rel": "1e-12"
+    },
+    {
+      "id": "tftu_back_to_hz_60",
+      "kind": "ftu_period_to_hz",
+      "input_tftu": "3.09143073331025e41",
+      "expected_hz": "60",
+      "tolerance_rel": "1e-12"
+    }
+  ]
+}

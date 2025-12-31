@@ -1,0 +1,51 @@
+{
+  "release_id": "FTU-SEAL-2025-12-31-v1.7.1",
+  "spec_version": "1.7.1",
+  "artifacts": [
+    {
+      "path": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.md",
+      "media_type": "text/markdown",
+      "sha256": "0969b95ea0540c9e40aff67bad8c988441ff8fce2afcf7720bc6819e909ff0c5",
+      "size_bytes": 48300
+    },
+    {
+      "path": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.docx",
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "c4a336e74602cb09e2a3660e2d3454612e956955ef72061f8fbd7c3dc41d1c38",
+      "size_bytes": 70332
+    },
+    {
+      "path": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.pdf",
+      "media_type": "application/pdf",
+      "sha256": "e8e05f7d6a33f1e13d114eec3e660df9627baf2312f971ca87153ac82697c3be",
+      "size_bytes": 498403
+    },
+    {
+      "path": "ftu_test_vectors_v1.7.1.json",
+      "media_type": "application/json",
+      "sha256": "cebbdeb47811f9cb95161a647a863ed7c2e3b19e89849739a1f8cc2a4203e7ea",
+      "size_bytes": 2344
+    },
+    {
+      "path": "ftu_verify_v1.7.1.py",
+      "media_type": "text/x-python",
+      "sha256": "ea94fb50a4ca26e61429b40bc54f56646b7c692c61896afc51f7ab70827bca2c",
+      "size_bytes": 3746
+    },
+    {
+      "path": "ftu_meta.json",
+      "media_type": "application/json",
+      "sha256": "350287a247b3f69ac8559e3742b0d8503eb645a96efdb4e320131384705daf75",
+      "size_bytes": 447
+    },
+    {
+      "path": "ftu_manifest_template_v1.7.1.json",
+      "media_type": "application/json",
+      "sha256": "9e2d79d7f6d89271f5760b0d96ed584b63d97826ce2b2d850343781b26bd6f89",
+      "size_bytes": 164
+    }
+  ],
+  "seal": {
+    "signature_method": "none"
+  }
+}
