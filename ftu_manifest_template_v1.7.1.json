@@ -1,0 +1,6 @@
+{
+  "$schema": "https://gulflaw.org/schemas/ftu_manifest.schema.json",
+  "release_id": "FTU-SEAL-2025-12-31-v1.7.1",
+  "spec_version": "1.7.1",
+  "artifacts": []
+}

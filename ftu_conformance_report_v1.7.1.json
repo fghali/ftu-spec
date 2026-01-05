@@ -1,0 +1,16 @@
+{
+  "release_id": "FTU-SEAL-2025-12-31-v1.7.1",
+  "spec_version": "1.7.1",
+  "manifest": "ftu_manifest.json",
+  "vectors": "ftu_test_vectors_v1.7.1.json",
+  "hash_check": {
+    "passed": true,
+    "failures": []
+  },
+  "vector_check": {
+    "passed": true,
+    "failures": [],
+    "passed_count": 12,
+    "total": 12
+  }
+}

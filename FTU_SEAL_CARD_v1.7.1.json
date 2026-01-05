@@ -1,0 +1,9 @@
+{
+  "release_id": "FTU-SEAL-2025-12-31-v1.7.1",
+  "manifest_sha256": "356e88b8806c35d613ed14a5a3717dcb8e2430e32bafe3f60b78bb795f0e5334",
+  "spec_artifact_sha256": "e8e05f7d6a33f1e13d114eec3e660df9627baf2312f971ca87153ac82697c3be",
+  "verifier_reference": "ftu_verify_v1.7.1.py",
+  "conformance_report_reference": "ftu_conformance_report_v1.7.1.json",
+  "signature_method": "none",
+  "published_utc": "2025-12-31 23:59:59"
+}

@@ -1,0 +1,13 @@
+{
+  "release_id": "FTU-SEAL-2025-12-31-v1.7.1",
+  "spec_version": "1.7.1",
+  "canonical_base": "https://gulflaw.org/.well-known/ftu/",
+  "mirrors": [
+    "https://slashturbo.com/.well-known/ftu/"
+  ],
+  "manifest": "ftu_manifest.json",
+  "vectors": "ftu_test_vectors_v1.7.1.json",
+  "spec_pdf": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.pdf",
+  "spec_docx": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.docx",
+  "spec_md": "FTU-SPEC_v1.7.1_FLAGSHIP_ABSOLUTE.md"
+}
